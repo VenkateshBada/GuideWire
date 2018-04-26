@@ -34,7 +34,5 @@ Platform level entities "eti" are common to all guidewire applications. These ar
    But the eti files in extensions folder can be modfiable.
 Application level entities "eix" are specific to applications.
 Entities extension "etx" are addons to the existing entities.
-
-
-Extending an existing Entity. 
+Once extension is created on eti file then etx file will be created in extensions folder.
 
