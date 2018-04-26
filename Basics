@@ -1,0 +1,4 @@
+1. Run the startgw.bat to set java and ant class path.
+2. Run studio.bat to start the Design studio
+3. Once studio is up. Press Alt + Shift + F9 to run in Debug mode (for test server). Goto browser and enter the following url to see the application.
+http://localhost:8180/pc/
