@@ -2,3 +2,14 @@
 2. Run studio.bat to start the Design studio
 3. Once studio is up. Press Alt + Shift + F9 to run in Debug mode (for test server). Goto browser and enter the following url to see the application.
 http://localhost:8180/pc/
+4. Presentation Tier:
+  config --> Page Configuration  --> pcf  --> different modules --> screens with names.
+  Double click the screens to see the properties and Toolbox
+  Select on top of the page. There is a tab called code; where in specific logic can be added using gosu language.
+  
+5. Integration Tier:
+   Plug-ins can be added from set of guidewire provided list of plug-ins.
+   Web-services - messages are sent sent synchronously. For example; requesting infromation from claims center or from policy center is often sent in payload xml.
+   
+6. Ctrl + Shift + N --> to search for perticular file and then click on Gear symbol to see the source code.
+ 
