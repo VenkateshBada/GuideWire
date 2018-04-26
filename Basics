@@ -17,3 +17,9 @@
 7. Alt + Shift + T --> 
 
 Rest services supported in GW7.0 and decricated in 8.0 on-wards. But Soap calls are supported.
+
+Platform level entities "eti" are
+
+
+Extending an existing Entity. 
+
