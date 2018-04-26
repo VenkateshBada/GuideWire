@@ -14,11 +14,26 @@
    
 6. Ctrl + Shift + N --> to search for perticular file and then click on Gear symbol to see the source code.
  
-7. Alt + Shift + T --> 
+7. Alt + Shift + E on the page from Policy Center will take to that page code, so the fields/code can be  modified.
 
 Rest services supported in GW7.0 and decricated in 8.0 on-wards. But Soap calls are supported.
 
-Platform level entities "eti" are
+8. Entities are stored as tables in h2 database and these are available in both Entity and extensions in Guidwire studio.
+
+9. Data Tier --> set of data objects and information about their relationship is called data model.
+   Every guidewire data model consists of Entity, Entity field and Typelist.
+   Entity is a different set of tables that are available.
+   Entity Field is a value or set of values used to define the state or nature of a specific instance of the Entity.
+      Four general types of entity field
+         * Data Key - to store data
+         * Foreign Key - to refer an entity
+         * Array Key - to refer array of entity
+         * Type Key - to refer typelist.
+         
+Platform level entities "eti" are common to all guidewire applications. These are system files and can not be modifiable.
+   But the eti files in extensions folder can be modfiable.
+Application level entities "eix" are specific to applications.
+Entities extension "etx" are addons to the existing entities.
 
 
 Extending an existing Entity. 
