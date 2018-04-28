@@ -1,0 +1,9 @@
+*  To start the H2 database, goto ../PolicyCenter/admin/lib in terminal. Execute the following jar file.
+        >java -jar h2-1.2.147.jar
+        This will bring-up a login menu. The jdbc url on the login menu should match with one in database-config.xml 
+        (/PolicyCenter/modules/configuration/config)
+*  Either only one of guidewire studio or database server can run at a given time, as both use the same Jetty server. 
+   The second one gets the error that the resources are not available. So stop the server that is not required and run the other one.
+*  To regenerate the data dictionary goto /PolicyCenter/bin and use gwpc.bat enter the following command in terminal.
+    gwpc regen-dictionary 
+*  Dictionary is a reflection of database and its entities.
