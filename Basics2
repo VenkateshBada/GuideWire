@@ -4,6 +4,9 @@
         (/PolicyCenter/modules/configuration/config)
 *  Either only one of guidewire studio or database server can run at a given time, as both use the same Jetty server. 
    The second one gets the error that the resources are not available. So stop the server that is not required and run the other one.
-*  To regenerate the data dictionary goto /PolicyCenter/bin and use gwpc.bat enter the following command in terminal.
+*  To regenerate the data dictionary goto /PolicyCenter/bin and use gwpc.bat enter the following command in terminal. 
     gwpc regen-dictionary 
-*  Dictionary is a reflection of database and its entities.
+    This will create/update build folder inside the PolicyCenter folder.
+*  Dictionary is a reflection of database and its entities. Once build is successful, the data dictionary can be seen inside
+   ../PolicyCenter/build/dictionary/data/index.html
+
