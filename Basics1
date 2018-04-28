@@ -36,3 +36,7 @@ Application level entities "eix" are specific to applications.
 Entities extension "etx" are addons to the existing entities.
 Once extension is created on eti file then etx file will be created in extensions folder.
 
+Guidwire uses Jetty server by default in all of the guidewire products. If needs to change the server from jetty to TomCat or 
+other server then needs set in configuration. In guidewire, both application and database uses the same server. 
+
+
