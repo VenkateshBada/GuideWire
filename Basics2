@@ -9,4 +9,9 @@
     This will create/update build folder inside the PolicyCenter folder.
 *  Dictionary is a reflection of database and its entities. Once build is successful, the data dictionary can be seen inside
    ../PolicyCenter/build/dictionary/data/index.html
-
+*  The system entity name will have prefix pc_* in data dictionary and user defined entity will have pcx_*. For example Accounts is the name of the entity in application, 
+   but pc_account is the name in the data dictionary. HouseDetails_Ext in data dictionary is pcx_housedetails_ext.
+*  Green color fields in data model are coming from base guidewire application and blue color are coming from custom fields. 
+   Red color are temporary fields
+*  Entity object window shows two tabs at the bottom, Entity and XML.Entity is UI represntation of meta data from XML formatted.
+*  
