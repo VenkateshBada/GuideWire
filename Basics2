@@ -15,4 +15,10 @@
 *  Green color fields in data model are coming from base guidewire application and blue color are coming from custom fields. 
    Red color are temporary fields
 *  Entity object window shows two tabs at the bottom, Entity and XML.Entity is UI represntation of meta data from XML formatted.
-*  
+*  PCF commands.
+   Alt + Shift + I --> Location Info
+   Alt + Shift + L --> Reload PCFs
+   Alt + Shift + W --> Widget Inspector
+   Alt + Shift + E --> Open the PCF in Studio
+*  PCF files are read at server start-up. So Restarting server will deploy PCF changes. Alternatively PCFs can be reloading from 
+   Internal Tools. shortcut key (Alt + Shift + L)
