@@ -1,0 +1,22 @@
+1. Gosu Overview
+
+   *  Gosu is based on Java and guideware is licensed, java is open source.
+   *  
+
+
+2. Gosu statements
+
+
+3. Arrays
+
+
+4. PCF Methods
+
+
+5. Partial Page Update
+
+Gosu code can be written in gw folder(inside gsrc) or in pcf file as pcf method.
+
+Lambda expression example
+var 
+
